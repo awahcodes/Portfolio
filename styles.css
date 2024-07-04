@@ -171,3 +171,40 @@ section {
   color: white;
   background-color: rgba(53, 53, 53, 0.8);
 }
+
+/* Section About */
+
+.sectionTextParagraph,
+.title {
+  text-align: center;
+}
+
+.sectionContainer {
+  display: flex;
+}
+
+.aboutContainers {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin: 5rem 0 2rem 3rem;
+}
+
+.detailsContainer {
+  border: 0.1px solid rgb(53, 53, 53);
+  text-align: center;
+  padding: 1rem 5rem;
+  border-radius: 2rem;
+}
+
+.textContainer {
+  margin-left: 3rem;
+}
+
+.sectionPixContainer img {
+  border-radius: 2rem;
+}
+
+#about h1 {
+  margin-bottom: 3rem;
+}
