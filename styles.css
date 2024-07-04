@@ -219,21 +219,53 @@ section {
   right: 6rem;
 }
 
-.frontEndExperience {
-  width: 30%;
-  padding: 2rem;
-  border: 0.1px solid rgb(53, 53, 53);
-}
-
-.frontEndExperience > h3 {
-  text-align: center;
-}
-.mainLanguageFlex {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-.languageKnownFlex {
+.imgLangFlex {
   display: flex;
   gap: 1rem;
+}
+
+.mainLanguageFlex {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.imgLangFlex {
+  margin-top: 0.5rem;
+}
+
+.frontEndExperience,
+.backEndExperience {
+  border: 1px solid rgb(53, 53, 53);
+  width: 40%;
+  height: 280px;
+  border-radius: 2rem;
+}
+
+.experienceFlexContainer {
+  display: flex;
+  justify-content: center;
+
+  gap: 2rem;
+}
+
+.frontEndExperience > h3,
+.backEndExperience > h3 {
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
+#experience > h1 {
+  margin-bottom: 2rem;
+}
+
+.level {
+  color: rgba(53, 53, 53, 0.9);
+  font-weight: 500;
+}
+
+.language {
+  font-weight: 700;
+  font-size: larger;
 }
