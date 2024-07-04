@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -207,4 +208,32 @@ section {
 
 #about h1 {
   margin-bottom: 3rem;
+}
+
+.aboutDetailsContainer {
+  text-wrap: wrap;
+}
+.arrow {
+  position: absolute;
+
+  right: 6rem;
+}
+
+.frontEndExperience {
+  width: 30%;
+  padding: 2rem;
+  border: 0.1px solid rgb(53, 53, 53);
+}
+
+.frontEndExperience > h3 {
+  text-align: center;
+}
+.mainLanguageFlex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.languageKnownFlex {
+  display: flex;
+  gap: 1rem;
 }
