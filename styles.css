@@ -269,3 +269,49 @@ section {
   font-weight: 700;
   font-size: larger;
 }
+
+#project > img {
+  width: 300px;
+  border-radius: 2rem;
+}
+
+#project > button {
+  font-weight: 600;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  background-color: white;
+  margin: 0 0.5rem;
+}
+
+#project > button:hover {
+  color: white;
+  background-color: rgb(53, 53, 53);
+}
+.projectContainer {
+  border: 1px solid rgb(53, 53, 53);
+  width: 380px;
+  height: 490px;
+  padding: 2rem;
+  border-radius: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#project > h2 {
+  padding: 1rem;
+}
+
+.projectsContainers {
+  display: flex;
+  gap: 2rem;
+}
+
+#projects > h1 {
+  margin-bottom: 2rem;
+}
+
+#projects > p {
+  margin-top: -3.5rem;
+}
