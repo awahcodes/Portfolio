@@ -102,7 +102,12 @@ section {
   width: 400px;
   height: 400px;
   display: flex;
+
   margin: auto 0;
+}
+
+.profileImage {
+  border-radius: 50%;
 }
 
 .sectionText {
@@ -272,8 +277,11 @@ section {
 #project > img {
   width: 300px;
   border-radius: 2rem;
+  transition: 1s ease-in-out;
 }
-
+#project > img:hover {
+  width: 310px;
+}
 #project > button {
   font-weight: 600;
   padding: 1rem;
