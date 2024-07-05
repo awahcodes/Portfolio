@@ -78,7 +78,7 @@ nav {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: blue;
+/*   background-color: blue; */
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -381,7 +381,7 @@ section {
 
 .footerContainer ul li {
   list-style-type: none;
-  color: rgb(53, 53, 53);
+  color: rgba(53, 53, 53, 0.9);
 }
 .footerContainer ul li a {
   color: rgb(53, 53, 53);
