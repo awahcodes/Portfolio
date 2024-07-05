@@ -78,7 +78,7 @@ nav {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: blue;
+/*   background-color: blue; */
   width: fit-content;
   max-height: 0;
   overflow: hidden;
